@@ -1,0 +1,41 @@
+.footer {
+    background-color: white;
+    color: black;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+h4 {
+    color: black;
+    font-size: 12px;
+    margin-top: 70px;
+}
+
+h5 {
+    color: #E6005A;
+    font-size: 12px;
+}
+p {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.icons {
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+.facebook img {
+   height: 100px;
+}
+
+.instagram img {
+   height: 65px;
+   margin-top: 18px;
+}
+
+.linkedin img {
+   height: 95px;
+   margin-top: 3px;
+}

@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sarala', sans-serif;
+    background-color: white;
+}
+
+.header {
+    color: #ADD8E6;
+    text-decoration: none;
+    background-color: #ADD8E6;
+}
+
+.banner {
+    background-color: white;
+
+}
+
+h2{
+    color: #e6005a
+}
+
+h3 {
+    color: #e6005a;
+}
+
+.teste {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 100px;
+    
+   
+}
+.missao {
+    background-color: #FFD3FB;
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    position: relative;
+    text-align: center;
+    border: solid 20px #FFD3FB;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.visao {
+    background-color: #FFD3FB;
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    position: relative;
+    text-align: center;
+    border: solid 20px #FFD3FB;
+    border-radius: 15px;
+
+    
+}
+
+.valores {
+    background-color: #FFD3FB;
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    position: relative;
+    margin-bottom: 200px;
+    text-align: center;
+    border: solid 20px #FFD3FB;
+    border-radius: 15px;
+   
+}
+

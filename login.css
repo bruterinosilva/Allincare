@@ -1,0 +1,76 @@
+.banner {
+    background-color: #ADD8E6;
+}
+
+.banner .container {
+    height: 550px;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+
+.banner .container.login{
+    justify-content: center;
+}
+
+.card {
+    background-color: #E5E5E5;
+    color: #E6005A;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+.img_login img {
+    height: 400px;
+    margin-right: 0px;
+    position: absolute;
+    left: 900px;
+    bottom: 0px;
+    top: 225px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    width: 250px;
+}
+
+form label {
+    margin-top: 8px;
+}
+
+form input {
+    margin-top: 8px;
+    outline: none;
+    border: 0;
+    padding: 8px;
+    width: 230px;
+    height: 25px;
+    background-color: transparent;
+    border-bottom: 1px solid #E6005A;
+}
+
+form button {
+    margin-top: 16px;
+    background-color: #E6005A;
+    color: white;
+    padding: 10px 15px;
+    width: 120px;
+    align-self: center;
+    font-size: 18px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}

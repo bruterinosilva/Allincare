@@ -1,0 +1,82 @@
+.banner {
+    background-color: #ADD8E6;
+    height: 1200px;
+}
+
+.banner .container {
+    height: 550px;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+
+.banner .container.cadastro{
+    justify-content: center;
+}
+
+.img_cadastro img {
+    height: 800px;
+    position: absolute;
+    right: 850px;
+    display: flex;
+    top: 200px;
+}
+
+.card {
+    background-color: #E5E5E5;
+    color: #E6005A;
+    width: 400px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-bottom: center;
+    filter: drop-shadow(30%);
+    margin-top: 500px;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    width: 250px;
+}
+
+form label {
+    margin-top: 8px;
+}
+
+form input {
+    margin-top: 8px;
+    outline: none;
+    border: 0;
+    padding: 8px;
+    width: 230px;
+    height: 25px;
+    background-color: transparent;
+    border-bottom: 1px solid #E6005A;
+    justify-content: center;
+}
+
+form button {
+    margin-top: 16px;
+    background-color: #E6005A;
+    color: white;
+    padding: 10px 15px;
+    width: 120px;
+    align-self: center;
+    font-size: 18px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+

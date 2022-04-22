@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sarala', sans-serif;
+    background-color: white;
+}
+
+.header {
+    color: #ADD8E6;
+    text-decoration: none;
+    background-color: #ADD8E6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.logo {
+    width: 243px;
+}
+
+.navbar {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_btn {
+    text-decoration: none;
+    color: white;
+}
+.login_btn {
+    border: 1px solid #E6005A;
+    border-radius: 28px;
+    color:#E6005A;
+    padding: 5px 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.agora {
+    font-weight: bold;
+    color: #E6005A;
+}
+
+.login_btn:hover {
+    color: #FFFFFF;
+    background-color: #E6005A;
+}

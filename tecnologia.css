@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sarala', sans-serif;
+    background-color: white;
+}
+
+.header {
+    color: #ADD8E6;
+    text-decoration: none;
+    background-color: #ADD8E6;
+}
+
+.banner {
+    background-color: white;
+
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: #E6005A;
+}
+
+.img_tecnologia img{
+    display: flex;
+    height: 800px;
+    position:absolute;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.funcoes {
+    background-color: #FFD3FB;
+    width: 600px;
+    height: 90px;
+    margin-left: 650px;
+    text-align:center;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 15px;
+    align-content: center;
+    border: solid #FFD3FB 15px;
+    display: flex;
+}
+
+.funcoes2 {
+    background-color: #FFD3FB;
+    width: 600px;
+    height: 90px;
+    margin-left: 650px;
+    border-radius: 15px;
+    text-align:center;
+    position: relative;
+    align-content: center;
+    border: solid #FFD3FB 15px;
+    display: flex;
+}
+
+.funcoes3 {
+    background-color: #FFD3FB;
+    width: 600px;
+    height: 90px;
+    margin-left: 650px;
+    border-radius: 15px;
+    text-align:center;
+    position: relative;
+    margin-bottom: 330px;
+    align-content: center;
+    border: solid #FFD3FB 15px;
+    display: flex;
+}
