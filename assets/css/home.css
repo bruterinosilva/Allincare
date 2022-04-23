@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sarala', sans-serif;
+}
+
+.header {
+    color: #ADD8E6;
+    text-decoration: none;
+    background-color: #ADD8E6;
+}
+
+.banner {
+    background-image: url(../imgs/backgroundMain.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.card_title {
+    color: black;
+    font-size: 30px;
+}
+
+.beneficios li{
+    margin: 5px 0;
+    color: white;
+    list-style-type: decimal;
+}
+
+.beneficios li a{
+    color: white;
+    font-size: 20px;
+}
+
+.saibaMais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    position: relative;
+}
+
+.saibaMais a{
+    background: url("../imgs/down-arrow.png") no-repeat;
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    border-radius: 7px;
+    border: 2px solid black;
+    cursor: pointer;
+    position: absolute;
+    animation: bounce infinite linear 2s;
+}
+
+
+
+.p {
+    color: black;
+    font-size: 30px;
+}
+
+.termometro img{
+    height: 300px;
+    position: relative;
+    top: 120px;
+}
+
+.banner2 {
+    margin-top: 150px;
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+}
+.card2_subtitle {
+    color:#E6005A;
+    margin: 15px 0;
+}
+.img_home img{
+    height: 400px;
+}
+
+.btn_simule {
+    color: #E6005A;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 25px;
+    border: solid #E6005A 2px;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.btn_simule:hover{
+    color: white;
+    background-color: #E6005A;
+}
+
+
+
+@keyframes bounce {
+    0% { top: 30px }
+    50% { top: 50px }
+    100% { top: 30px }
+}
