@@ -18,7 +18,7 @@
     background-color: #E5E5E5;
     color: #E6005A;
     width: 400px;
-    height: 350px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,14 +63,23 @@ form input {
 }
 
 form button {
-    margin-top: 16px;
+    margin-top: 40px;
     background-color: #E6005A;
     color: white;
     padding: 10px 15px;
-    width: 120px;
+    width: 200px;
     align-self: center;
     font-size: 18px;
     border: 0;
-    border-radius: 10px;
+    border-radius: 28px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+form button:hover {
+        color: white;
+        background-color: #E6005A;
+        transform: translateY(-25px);
+        box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.45);
+    
 }

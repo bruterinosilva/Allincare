@@ -1,12 +1,9 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Sarala', sans-serif;
     background-color: #ADD8E6;
 }
 
 .campo_simulador {
-    background-color: #c6e8f4;
+    background-color: #E5E5E5;
     color: #E6005A;
     display: flex;
     justify-content: center;

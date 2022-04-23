@@ -3,12 +3,17 @@
     color: black;
     justify-content: space-evenly;
     display: flex;
+    align-items: center;
+}
+
+.blue {
+    background-color: #ADD8E6;
 }
 
 h4 {
     color: black;
     font-size: 12px;
-    margin-top: 70px;
+    
 }
 
 h5 {
@@ -24,7 +29,7 @@ p {
 .icons {
     justify-content: center;
     display: flex;
-    margin-top: 30px;
+    
 }
 .facebook img {
    height: 100px;

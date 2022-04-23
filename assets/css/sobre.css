@@ -1,10 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Sarala', sans-serif;
-    background-color: white;
-}
-
 .header {
     color: #ADD8E6;
     text-decoration: none;
@@ -13,6 +6,8 @@ body {
 
 .banner {
     background-color: white;
+    display: flex;
+    margin-top: 40px;
 
 }
 
@@ -24,9 +19,9 @@ h3 {
     color: #e6005a;
 }
 
-.teste {
+.sobre {
     display: flex;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-right: 100px;
     
    
@@ -43,6 +38,11 @@ h3 {
     transition: 0.5s;
 }
 
+.missao:hover{
+    transform: translateY(-25px);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.45);
+}
+
 .visao {
     background-color: #FFD3FB;
     height: 300px;
@@ -52,8 +52,12 @@ h3 {
     text-align: center;
     border: solid 20px #FFD3FB;
     border-radius: 15px;
+    transition: 0.5s; 
+}
 
-    
+.visao:hover{
+    transform: translateY(-25px);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.45);
 }
 
 .valores {
@@ -66,6 +70,13 @@ h3 {
     text-align: center;
     border: solid 20px #FFD3FB;
     border-radius: 15px;
-   
+    transition: 0.5s;
 }
+
+.valores:hover{
+    transform: translateY(-25px);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.45);
+}
+
+
 
