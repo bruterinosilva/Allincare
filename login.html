@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Allincare | Login</title>
+    <link rel="icon" type="image/x-icon" href="./assets/imgs/iconeSimples_PNG.png">
     <link rel="stylesheet" href="./assets/css/login.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sarala&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarala&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="header">
         <div class="container">
 
             <img src="./assets/imgs/logo.png" class="logo">
             <ul class="navbar">
-                <li><a class="navbar_btn"href="home.html">Início</a></li>
+                <li><a class="navbar_btn" href="home.html">Início</a></li>
                 <li><a class="navbar_btn" href="simule.html">Simulador</a></li>
                 <li><a class="navbar_btn" href="tecnologia.html">Tecnologia</a></li>
                 <li><a class="navbar_btn" href="sobre.html">Sobre nós</a></li>
-                <li><a class="navbar_btn"href="cadastro.html">Cadastro</a></li>
+                <li><a class="navbar_btn" href="cadastro.html">Cadastro</a></li>
                 <li><a class="navbar_btn login_btn agora" href="login.html">Login</a></li>
-                
+
             </ul>
 
         </div>
@@ -36,11 +39,12 @@
                 <h2>Bem-vindo de volta!</h2>
                 <form>
                     <label for="emailInput"> E-mail: </label>
-                    <input type="text" id="emailInput">
+                    <input type="email" required id="emailInput">
                     <label for="senhaInput"> Senha: </label>
-                    <input type="password" id="senhaInput">
+                    <input type="password" required id="senhaInput">
 
-                    <button type="button">Entrar</button>
+                    <!-- <button type="button">Entrar</button> -->
+                    <input class="btn_entrar" type="submit" value="Entrar">
                 </form>
             </div>
 
@@ -53,24 +57,24 @@
     <div class="footer">
 
         <div>
-            <h4>Copyright &copy; 2022 Allincare. Todos os direitos reservados.</h4> 
+            <h4>Copyright &copy; 2022 Allincare. Todos os direitos reservados.</h4>
         </div>
-        
+
         <div class="icons">
-            <a class="facebook" href="https://www.facebook.com/Allincare-113634227988744"> 
+            <a class="facebook" href="https://www.facebook.com/Allincare-113634227988744">
                 <img src="./assets/imgs/facebook_img.png">
             </a>
-    
+
             <a class="instagram" href="https://www.instagram.com/allincarecontroltech/">
                 <img src="./assets/imgs/instagram_img.png">
             </a>
-    
+
             <a class="linkedin" href="https://www.linkedin.com/company/allincare">
                 <img src="./assets/imgs/linkedin_img.png">
             </a>
-            </div>
-        
-        
+        </div>
+
+
         <div>
             <h5>Contato</h5>
             <p>E-mail: allincarecontroltech@gmail.com</p>
@@ -80,4 +84,5 @@
 
     </div>
 </body>
+
 </html>

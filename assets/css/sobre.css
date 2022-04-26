@@ -11,7 +11,7 @@
 
 }
 
-h2{
+h2 {
     color: #e6005a
 }
 
@@ -23,9 +23,8 @@ h3 {
     display: flex;
     margin-top: 50px;
     margin-right: 100px;
-    
-   
 }
+
 .missao {
     background-color: #FFD3FB;
     height: 300px;
@@ -36,11 +35,18 @@ h3 {
     border: solid 20px #FFD3FB;
     border-radius: 15px;
     transition: 0.5s;
+    font-size: 25px;
 }
 
-.missao:hover{
+.missao p {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.missao:hover {
     transform: translateY(-25px);
-    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.45);
 }
 
 .visao {
@@ -52,12 +58,19 @@ h3 {
     text-align: center;
     border: solid 20px #FFD3FB;
     border-radius: 15px;
-    transition: 0.5s; 
+    transition: 0.5s;
+    font-size: 25px;
 }
 
-.visao:hover{
+.visao p {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.visao:hover {
     transform: translateY(-25px);
-    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.45);
 }
 
 .valores {
@@ -71,12 +84,16 @@ h3 {
     border: solid 20px #FFD3FB;
     border-radius: 15px;
     transition: 0.5s;
+    font-size: 25px;
 }
 
-.valores:hover{
+.valores p {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.valores:hover {
     transform: translateY(-25px);
-    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.45);
 }
-
-
-

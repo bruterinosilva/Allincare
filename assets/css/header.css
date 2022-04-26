@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Sarala', sans-serif;
     outline: none;
+
 
 }
 
@@ -16,7 +17,7 @@
     width: 80%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
 }
 
 .logo {
@@ -36,10 +37,11 @@
     text-decoration: none;
     color: white;
 }
+
 .login_btn {
     border: 1px solid #E6005A;
     border-radius: 28px;
-    color:#E6005A;
+    color: #E6005A;
     padding: 5px 10px;
     transition: 0.5s;
     cursor: pointer;
@@ -53,4 +55,20 @@
 .login_btn:hover {
     color: #FFFFFF;
     background-color: #E6005A;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #E5E5E5;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #E6005A;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c50750;
 }

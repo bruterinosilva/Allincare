@@ -1,5 +1,6 @@
 .banner {
     background-color: #ADD8E6;
+    overflow: hidden;
 }
 
 .banner .container {
@@ -10,7 +11,7 @@
 }
 
 
-.banner .container.login{
+.banner .container.login {
     justify-content: center;
 }
 
@@ -25,19 +26,25 @@
     justify-content: center;
     font-weight: bold;
     border-radius: 15px;
+    filter: drop-shadow(30%);
+    margin: auto
 }
 
 .card h2 {
     margin: 0;
 }
 
+.img_login {
+    position: relative;
+}
+
 .img_login img {
     height: 400px;
     margin-right: 0px;
     position: absolute;
-    left: 900px;
     bottom: 0px;
-    top: 225px;
+    top: -124px;
+    left: -330px;
 }
 
 form {
@@ -57,12 +64,11 @@ form input {
     border: 0;
     padding: 8px;
     width: 230px;
-    height: 25px;
     background-color: transparent;
     border-bottom: 1px solid #E6005A;
 }
 
-form button {
+.btn_entrar {
     margin-top: 40px;
     background-color: #E6005A;
     color: white;
@@ -76,10 +82,10 @@ form button {
     transition: 0.5s;
 }
 
-form button:hover {
-        color: white;
-        background-color: #E6005A;
-        transform: translateY(-25px);
-        box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.45);
-    
+.btn_entrar:hover {
+    color: white;
+    background-color: #E6005A;
+    transform: translateY(-25px);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.45);
+
 }

@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Allincare | Cadastro</title>
+    <link rel="icon" type="image/x-icon" href="./assets/imgs/iconeSimples_PNG.png">
     <link rel="stylesheet" href="./assets/css/cadastro.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sarala&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarala&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -38,26 +39,43 @@
             <div class="card">
                 <h2>Cadastre-se aqui!</h2>
                 <form>
-                    <label for="fantasiaInput">Nome fantasia: </label>
-                    <input type="text" id="fantasiaInput">
-                    <label for="nomeInput">Razão social: </label>
-                    <input type="text" id="nomeInput">
-                    <label for="cnpjInput"> CNPJ: </label>
-                    <input type="text" id="cnpjlInput">
-                    <label for="cepInput"> CEP: </label>
-                    <input type="text" id="cepInput">
-                    <label for="enderecoInput"> Endereço: </label>
-                    <input type="text" id="enderecoInput">
-                    <label for="numeroInput"> Número: </label>
-                    <input type="text" id="numeroInput">
+                    <label for="usuarioInput">Nome de usuário: </label>
+                    <input type="text" required id="usuarioInput">
+                    <label for="cpfinput">CPF: </label>
+                    <input type="number" required id="cpfInput">
+                    <label for="telefoneInput"> Telefone celular: </label>
+                    <input type="number" required id="telefonelInput">
                     <label for="emailInput"> E-mail: </label>
-                    <input type="text" id="emailInput">
-                    <label for="senhaInput"> Senha: </label>
-                    <input type="password" id="senhaInput">
-                    <label for="confirmacaoInput"> Confirme sua senha: </label>
-                    <input type="password" id="senhaInput">
+                    <input type="email" required id="emailInput">
+                    <br>
+                    <label for="empresaInput">Empresa correspondente:</label>
+                    <div class="select_empresa">
 
-                    <button type="button">Cadastrar</button>
+                        <select id="empresaInput">
+                            <option value="FreteBras">FreteBras</option>
+                            <option value="Loggi">Loggi</option>
+                            <option value="Lalamove">Lalamove</option>
+
+                        </select>
+                    </div>
+                    <br>
+
+                    <label for="cargoInput">Cargo:</label>
+                    <div class="select_cargo">
+
+                        <select id="cargoInput">
+                            <option value="Diretor_Financeiro">Diretor Financeiro (CFO)</option>
+                            <option value="Diretor_Operacoes">Diretor de Operações (COO)</option>
+                            <option value="Diretor_Executivo">Diretor Executivo (CEO)</option>
+                            <option value="Diretor_Tecnologia (CTO)">Diretor-Chefe de Tecnologia (CTO)</option>
+                            <option value="Diretor_TI">Diretor de TI (CIO)</option>
+                            <option value="Diretor_Receita">Diretor de Receita (CRO)</option>
+
+                        </select>
+                    </div>
+
+                    <!-- <button type="button">Cadastrar</button> -->
+                    <input class="btn_cadastrar" type="submit" value="cadastrar">
                 </form>
             </div>
 
@@ -65,35 +83,35 @@
                 <img src="./assets/imgs/Rectangle 69.png">
             </div>
         </div>
-</div>
-<div class="footer">
-
-    <div>
-        <h4>Copyright &copy; 2022 Allincare. Todos os direitos reservados.</h4> 
     </div>
-    
-    <div class="icons">
-        <a class="facebook" href="https://www.facebook.com/Allincare-113634227988744"> 
-            <img src="./assets/imgs/facebook_img.png">
-        </a>
+    <div class="footer">
 
-        <a class="instagram" href="https://www.instagram.com/allincarecontroltech/">
-            <img src="./assets/imgs/instagram_img.png">
-        </a>
-
-        <a class="linkedin" href="https://www.linkedin.com/company/allincare">
-            <img src="./assets/imgs/linkedin_img.png">
-        </a>
+        <div>
+            <h4>Copyright &copy; 2022 Allincare. Todos os direitos reservados.</h4>
         </div>
-    
-    <div>
-        <h5>Contato</h5>
-        <p>E-mail: allincarecontroltech@gmail.com</p>
-        <p>Telefone: (11) 0000-0000 </p>
-        <p>Whatsapp: (11) 90000-0000</p>
-    </div>
 
-</div>
+        <div class="icons">
+            <a class="facebook" href="https://www.facebook.com/Allincare-113634227988744">
+                <img src="./assets/imgs/facebook_img.png">
+            </a>
+
+            <a class="instagram" href="https://www.instagram.com/allincarecontroltech/">
+                <img src="./assets/imgs/instagram_img.png">
+            </a>
+
+            <a class="linkedin" href="https://www.linkedin.com/company/allincare">
+                <img src="./assets/imgs/linkedin_img.png">
+            </a>
+        </div>
+
+        <div>
+            <h5>Contato</h5>
+            <p>E-mail: allincarecontroltech@gmail.com</p>
+            <p>Telefone: (11) 0000-0000 </p>
+            <p>Whatsapp: (11) 90000-0000</p>
+        </div>
+
+    </div>
 
 </body>
 

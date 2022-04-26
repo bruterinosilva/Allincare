@@ -1,5 +1,12 @@
 body {
-    background-color: #ADD8E6;
+    background-color: white;
+}
+
+.banner {
+    background-color: white;
+    display: flex;
+    margin-top: 40px;
+
 }
 
 .campo_simulador {
@@ -8,25 +15,39 @@ body {
     display: flex;
     justify-content: center;
     font-weight: bold;
-    width: 70%;
+    width: 30%;
     margin: 50px auto;
     border-radius: 10px;
+    margin-bottom: 80px;
+    border: solid 15px #E5E5E5;
 }
+
+h2{
+    color: #e6005a;
+}
+
 #mostrar_valor{
-    max-width: 350px;
-    font-size: 20px;
+    max-width: 800px;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 80px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    margin-top: 24px;
+    margin-top: 40px;
     width: 250px;
     text-align: start;
+    margin: auto;
+    
 }
 
 form label {
     margin-top: 8px;
+    align-content: center;
+   
+    
 }
 
 form input {
@@ -42,21 +63,30 @@ form input {
 
 }
 
-form button {
+.campo_simulador a{
     margin-top: 16px;
     background-color: #E6005A;
     color: white;
     padding: 10px 15px;
     width: 120px;
-    align-self: center;
+    Falign-self: center;
     font-size: 18px;
+    text-decoration: none;
+    text-align: center;
     border: 0;
-    border-radius: 10px;
+    border-radius: 28px;
     cursor: pointer;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+    animation: bounce infinite linear 2s;
 
 }
 
-
+.campo_simulador a:hover{
+    color: white;
+    background-color: #E6005A;
+    transform: translateY(-25px);
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.45);
+}
 

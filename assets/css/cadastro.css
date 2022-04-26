@@ -1,6 +1,6 @@
 .banner {
     background-color: #ADD8E6;
-    height: 1200px;
+    height: 950px;
 }
 
 .banner .container {
@@ -11,7 +11,7 @@
 }
 
 
-.banner .container.cadastro{
+.banner .container.cadastro {
     justify-content: center;
 }
 
@@ -27,16 +27,16 @@
     background-color: #E5E5E5;
     color: #E6005A;
     width: 400px;
-    height: 1000px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-weight: bold;
     border-radius: 15px;
-    margin-bottom: center;
     filter: drop-shadow(30%);
-    margin-top: 500px;
+    margin: auto;
+    margin-top: 81px;
 }
 
 .card h2 {
@@ -60,13 +60,12 @@ form input {
     border: 0;
     padding: 8px;
     width: 230px;
-    height: 25px;
     background-color: transparent;
     border-bottom: 1px solid #E6005A;
     justify-content: center;
 }
 
-form button {
+.btn_cadastrar {
     margin-top: 16px;
     background-color: #E6005A;
     color: white;
@@ -79,12 +78,38 @@ form button {
     cursor: pointer;
     margin-top: 40px;
     transition: 0.5s;
-    
+
 }
 
-form button:hover{
+.btn_cadastrar:hover {
     color: white;
     background-color: #E6005A;
     transform: translateY(-25px);
-    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.45);
+}
+
+select {
+    color: black;
+    background-color: #FFD3FB;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    border: solid 2px #FFD3FB;
+    border-radius: 28px;
+    transition: 0.5s;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+select:hover {
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.45);
+}
+
+.select_empresa {
+    margin-top: 10px;
+}
+
+.select_cargo {
+    margin-top: 10px;
 }
